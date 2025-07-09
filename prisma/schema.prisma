@@ -1,0 +1,56 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Account {
+  id             BigInt   @id @unique @default(autoincrement()) @map("id")
+  role           String   @default("user") @map("role")
+  email          String   @default("") @map("email")
+  nickname       String   @default("") @map("nickname")
+  avatarUrl      String   @default("") @map("avatar_url")
+  signInType     String   @default("") @map("signin_type")
+  signInProvider String   @default("") @map("signin_provider")
+  signInOpenId   String   @default("") @map("signin_openid")
+  deleted        Int      @default(0) @map("deleted")
+  createTime     DateTime @default(now()) @map("create_time")
+  updateTime     DateTime @default(now()) @updatedAt @map("update_time")
+
+  @@unique([signInType, signInProvider, signInOpenId])
+  @@map("account")
+}
+
+model Collection {
+  id          BigInt   @id @unique @default(autoincrement()) @map("id")
+  accountId   BigInt   @default(0) @map("account_id")
+  recommendId BigInt   @default(0) @map("recommend_id")
+  createTime  DateTime @default(now()) @map("create_time")
+  updateTime  DateTime @default(now()) @updatedAt @map("update_time")
+
+  @@map("collection")
+}
+
+model Recommend {
+  id               BigInt   @id @unique @default(autoincrement()) @map("id")
+  accountId        BigInt   @default(0) @map("account_id")
+  dietType         String   @default("") @map("diet_type")
+  flavorPreference String   @default("") @map("flavor_preference")
+  difficulty       String   @default("") @map("difficulty")
+  cookingTime      String   @default("") @map("cooking_time")
+  name             String   @default("") @map("name")
+  desc             String   @default("") @map("desc")
+  ingredient       String   @default("") @map("ingredient")
+  step             String   @default("") @map("step")
+  tip              String   @default("") @map("tip")
+  image            String   @default("") @map("image")
+  size             String   @default("1") @map("size")
+  ip               String   @default("") @map("ip")
+  createTime       DateTime @default(now()) @map("create_time")
+  updateTime       DateTime @default(now()) @updatedAt @map("update_time")
+
+  @@map("recommend")
+}

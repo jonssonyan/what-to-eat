@@ -1,0 +1,45 @@
+{
+  "RootLayoutMetadata": {
+    "title": "吃啥好呢",
+    "description": "让灵感喂饱你"
+  },
+  "DefaultLayout": {
+    "homeTitle": "美食推荐",
+    "homeDescription": "个性化美食推荐，让烹饪变得轻松愉快",
+    "profileTitle": "个人中心",
+    "profileDescription": "管理你的收藏和个人信息"
+  },
+  "TopNavigation": {
+    "home": "推荐",
+    "profile": "个人中心",
+    "changelog": "更新日志",
+    "contact": "联系我们",
+    "support": "产品反馈",
+    "language": "语言",
+    "title": "吃啥好呢",
+    "description": "让灵感喂饱你"
+  },
+  "SignIn": {
+    "title": "欢迎回来",
+    "subTitle": "登录你的账户，开启美食探索之旅",
+    "credentialsSignIn": "用户名或密码错误",
+    "accessDenied": "无权访问",
+    "oauthSignIn": "第三方登录失败",
+    "signInFailed": "登录失败",
+    "signInGoogle": "使用 Google 登录",
+    "signInWechat": "使用微信登录",
+    "signInWechatTip": "微信登录功能开发中，敬请期待"
+  },
+  "Contact": {
+    "email": "问题反馈 请发邮件至：",
+    "youtube": "YouTube: ",
+    "x": "X: ",
+    "github": "GitHub: ",
+    "telegram": "Telegram Channel: ",
+    "tip": "我们欢迎任何建议与反馈，帮助我们持续优化产品体验。"
+  },
+  "DefaultPage": {
+    "recommend_start": "正在为你挑选最适合你口味的美食，请稍等片刻～🍜",
+    "recommend_success": "推荐成功！这些美食正等你品尝，快来看看吧～😋"
+  }
+}

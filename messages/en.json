@@ -1,0 +1,45 @@
+{
+  "RootLayoutMetadata": {
+    "title": "What to eat",
+    "description": "Let inspiration feed you"
+  },
+  "DefaultLayout": {
+    "homeTitle": "Food Recommendations",
+    "homeDescription": "Personalized food suggestions to make cooking easy and enjoyable",
+    "profileTitle": "Profile Center",
+    "profileDescription": "Manage your favorites and personal information"
+  },
+  "TopNavigation": {
+    "home": "Home",
+    "profile": "Profile",
+    "changelog": "Changelog",
+    "contact": "Contact",
+    "support": "Support",
+    "language": "Language",
+    "title": "What to eat",
+    "description": "Let inspiration feed you"
+  },
+  "SignIn": {
+    "title": "Welcome Back",
+    "subTitle": "Log in to your account and start your culinary journey",
+    "credentialsSignIn": "Incorrect username or password",
+    "accessDenied": "Access Denied",
+    "oauthSignIn": "Third-party login failed",
+    "signInFailed": "Login failed",
+    "signInGoogle": "Google",
+    "signInWechat": "WeChat",
+    "signInWechatTip": "WeChat login is under development. Stay tuned!"
+  },
+  "Contact": {
+    "email": "For feedback or questions, please email: ",
+    "youtube": "YouTube: ",
+    "x": "X: ",
+    "github": "GitHub: ",
+    "telegram": "Telegram Channel: ",
+    "tip": "We welcome any suggestions and feedback to help us continuously improve the product experience."
+  },
+  "DefaultPage": {
+    "recommend_start": "Finding the perfect dishes for your taste... Please hold on a moment! 🍜",
+    "recommend_success": "Recommendation complete! These delicious picks are waiting for you—take a look! 😋"
+  }
+}
