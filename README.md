@@ -12,7 +12,7 @@
 - 📝 更新日志与反馈：随时查看历史变更，欢迎提出建议
 - 📱 移动端适配：良好的移动端体验
 
-## 演示
+## 在线演示
 
 https://eat.jonssonyan.com
 
@@ -68,3 +68,7 @@ Telegram Channel: https://t.me/jonssonyan_channel
 ## 开源协议
 
 [Apache-2.0](LICENSE)
+
+## 致谢
+
+- [HowToCook](https://github.com/Anduin2017/HowToCook)
