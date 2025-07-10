@@ -55,23 +55,17 @@ https://eat.jonssonyan.com
    pnpm dev
    ```
 
-## 联系方式
+## 联系
 
-- X: https://x.com/jonssonyan
-- YouTube: https://www.youtube.com/@jonssonyan
+X: https://x.com/jonssonyan
 
-## 赞助
+YouTube: https://www.youtube.com/@jonssonyan
 
 如果这个项目对你有帮助，可以请我喝杯咖啡
 
-微信赞赏码:
-
 <img src="https://github.com/jonssonyan/install-script/assets/46235235/cce90c48-27d3-492c-af3e-468b656bdd06" width="150" alt="微信赞赏码" title="微信赞赏码"/>
-
-## 开源协议
-
-[Apache-2.0](LICENSE)
 
 ## 致谢
 
-- [HowToCook](https://github.com/Anduin2017/HowToCook)
+- 数据来自 [HowToCook](https://github.com/Anduin2017/HowToCook)
+- 使用 [Next.js](https://nextjs.org) 构建
