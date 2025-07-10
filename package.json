@@ -1,6 +1,6 @@
 {
   "name": "what-to-eat",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -11,6 +11,7 @@
     "lint:prettier": "prettier --write \"**/*.{js,cjs,ts,json,tsx,css,less,scss,vue,html,md}\""
   },
   "dependencies": {
+    "@next/third-parties": "^15.3.5",
     "@prisma/client": "^6.2.1",
     "axios": "^1.7.9",
     "bcryptjs": "^2.4.3",
