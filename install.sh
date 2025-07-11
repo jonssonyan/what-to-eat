@@ -11,7 +11,7 @@ init_var() {
   APP_DATA="/dockerdata/what-to-eat"
   APP_LOG="${APP_DATA}/logs"
 
-  image_name="jonssonyan/what-to-eat:0.1.0"
+  image_name="jonssonyan/what-to-eat:0.1.1"
   container_name="jy-what-to-eat"
 
   PORT=3002

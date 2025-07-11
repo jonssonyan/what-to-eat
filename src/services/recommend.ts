@@ -17,7 +17,7 @@ export const getRecommend = async (
 
   if (flavorPreference) {
     conditions.push(
-      Prisma.sql`${flavorPreference} = ANY(string_to_array(flavor_preference, E'\\n'))`
+      Prisma.sql`FIND_IN_SET(${flavorPreference}, REPLACE(flavor_preference, '\n', ','))`
     );
   }
 
