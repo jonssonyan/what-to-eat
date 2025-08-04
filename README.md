@@ -12,11 +12,11 @@
 - 📝 更新日志与反馈：随时查看历史变更，欢迎提出建议
 - 📱 移动端适配：良好的移动端体验
 
-## 在线演示
+## 演示
 
-https://eat.jonssonyan.com
+![preview](docs/images/preview-1.png)
 
-![preview](docs/images/preview.png)
+![preview](docs/images/preview-2.png)
 
 ## 快速开始
 
